@@ -1,1 +1,14 @@
-
+### 1. CMOS Inverter
+ 
+| Parameter | PMOS | NMOS |
+|-----------|------|------|
+| Model | `p_10_sp` | `n_10_sp` |
+| W | 800 nm | 480 nm |
+| L | 80 nm | 80 nm |
+| Fingers | 1 | 1 |
+ 
+- Schematic + symbol created in Virtuoso Schematic Editor
+- Full-custom layout completed using UMC 90nm design rules
+- Assura DRC and LVS clean
+- `av_extracted` view generated via QRC parasitic extraction
+- Post-layout transient simulation verified correct inverting behaviour
